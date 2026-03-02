@@ -1,16 +1,36 @@
-# Climate-projections
-Here is provided a long-term climate data daily series for points in each city based on AR6-IPCC scenarios. The goal is to guide NBS design strategically through the end of the century. Uncertainties can be evaluated in order to make optimised decisions.
+# 🌍 Climate Projections | URBREATH Project
 
-Output delivered: Climate projections data series ploted
+**Goal:** To provide long-term daily climate series based on **AR6-IPCC scenarios** to guide the strategic design of Nature-based Solutions (NBS) through the end of the century. Uncertainties can be evaluated in order to make optimised decisions.
 
-Frequency of updates: No updates; this is a one-time delivery.
+---
 
-Variables: 
-Basic climate variables; Maximim temperature, minimum temperature, precipitation, wind, relative humidity and radiation.
-Tailored variables: These use a combination of the basic variables and will be presented to the cities at the Pilsen event.  
+### 🛠 Technical Overview
+* **Provided by:** Ficlima & Municipia.
+* **Methodology:** Ficlima statistical downscaling. Results are optimized for each city using local **observed data**.
+* **Delivery:** Data series provided via MiniO to the URBREATH platform.
+* **Update Frequency:** 🛑 **Static.** This is a one-time delivery.
 
-How to interpret: The information is suplied for the four main AR6-IPCC scenarios. The values displayed in the tool represent the most probable outcomes for each available 30-year period. These results are a composite of 10 different models; therefore, uncertainties can be assessed using the boxplot results also available in the tool. 
+---
 
-Example: In Leuven, there is a plan to plant oak gardens. However, since oaks lack resilience to the maximum temperatures expected for the 2040-2070 period—and given the low uncertainty that these thresholds will be exceeded—they must switch to a different tree species.
+### 📊 Data & Variables
+| Category | Variables Included |
+| :--- | :--- |
+| **Basic Variables** | Maximum/Minimum Temperature, Precipitation, Wind, Relative Humidity, and Radiation. |
+| **Tailored Variables** | Indicators co-designed with cities (e.g., Heat Waves, Thermal Comfort), to be presented at the Pilsen event. |
 
-Methodology: Ficlima statistical downscaling method. Results are optimised for each city using observed data. Results are suplied to the Urbreath platform via MiniO.
+---
+
+### 🔍 How to Interpret the Data
+The information is supplied for the **four main AR6-IPCC scenarios**, using a composite of **10 different models** (40 total combinations).
+* **Most Probable Outcomes:** Displayed for each available 30-year period.
+* **Uncertainty Assessment:** Users can evaluate uncertainties and model spread using the **boxplot** results available in the tool.
+
+---
+
+### 💡 Practical Example: Species Resilience
+> **Case Study (Leuven):** A plan to plant oak gardens is reviewed using climate projections. Since oaks lack resilience to the maximum temperatures expected for the **2040-2070 period**, and the data shows a low uncertainty that these thresholds will be exceeded, the city decides to switch to a more heat-tolerant tree species.
+
+---
+
+### 🔗 Synergies with other scales
+This long-term data acts as a strategic "flag" system. Once risks are identified here, they are translated into indices for **Seasonal** and **Weather** scales to create a consistent early warning system.
