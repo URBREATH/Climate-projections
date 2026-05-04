@@ -4,6 +4,27 @@
 
 ---
 
+<table>
+  <tr>
+    <td width="30%"><b>License</b></td>
+    <td>CC BY-NC-ND 4.0</td>
+  </tr>
+  <tr>
+    <td><b>Dependencies</b></td>
+    <td>
+      GeoServer (to expose the data via WMS*)<br>
+      Apache Superset (to visualize data via interactive dashboards and graphs)<br>
+      VC Viewer (to visualize data via interactive maps)
+    </td>
+  </tr>
+  <tr>
+    <td><b>Contact points</b></td>
+    <td><a href="mailto:toni@ficlima.org">toni@ficlima.org</a></td>
+  </tr>
+</table>
+
+---
+
 ### 🛠 Technical Overview
 * **Provided by:** Ficlima & Municipia.
 * **Methodology:** Ficlima statistical downscaling. Results are optimized for each city using local **observed data**.
@@ -29,6 +50,12 @@ The information is supplied for the **four main AR6-IPCC scenarios**, using a co
 
 ### 💡 Practical Example: Species Resilience
 > **Case Study (Leuven):** A plan to plant oak gardens is reviewed using climate projections. Since oaks lack resilience to the maximum temperatures expected for the **2040-2070 period**, and the data shows a low uncertainty that these thresholds will be exceeded, the city decides to switch to a more heat-tolerant tree species.
+
+---
+
+### 🔗 Explore the Tool
+You can access the weather visualization system here:
+👉 [Ficlima climate Tool I ](https://dashboard-dev.urbreath.tech/tools/kpi)
 
 ---
 
